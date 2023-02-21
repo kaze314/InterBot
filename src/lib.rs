@@ -4,12 +4,12 @@
 
 use crate::sdk::entity::get_player;
 use crate::opengl::gldraw::*;
-use crate::opengl::glbindings::Red;
+use crate::opengl::glbindings::RED;
 use crate::sdk::offsets::{get_entity_list_ptr, get_players_index};
 use crate::memory::hook::{start_hook};
 use crate::windowsapi::{VK_RBUTTON, VK_DELETE, DWORD, HINSTANCE,
                         GetAsyncKeyState, CloseHandle, CreateThread, c_void, FreeConsole,
-                        AllocConsole, GetModuleHandleA, SetConsoleTitleA, FreeLibraryAndExitThread
+                        AllocConsole, GetModuleHandleA, SetConsoleTitleA
                     };
 
 mod windowsapi;
@@ -45,9 +45,9 @@ unsafe extern "stdcall" fn our_funct(hdc: windowsapi::HDC) -> u8 {
     println!("HOOKED7");
 
     let originalContext = setup_ortho(hdc);
-    draw_filled_rect(300.0, 300.0, 200.0, 200.0, Red);
+    draw_filled_rect(300.0, 300.0, 200.0, 200.0, RED);
     restore_gl(hdc, originalContext);
-    
+
     return OGL_SWAP_BUFFERS(hdc);
 }
 

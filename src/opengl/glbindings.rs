@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use std::mem::transmute;
 use crate::windowsapi::{GetProcAddress, HINSTANCE, BOOL, HGLRC, HDC};
 
@@ -18,10 +19,10 @@ pub type GLfloat  = f32;
 pub type GLubyte  = u8;
 pub type GLenum   = u32;
 
-pub const Red:   [GLubyte; 3]   = [255,0,0];
-pub const Green: [GLubyte; 3]   = [0,255,0];
-pub const Grey:  [GLubyte; 3]   = [192,192,192];
-pub const Black: [GLubyte; 3]   = [0,0,0];
+pub const RED:   [GLubyte; 3]   = [255,0,0];
+pub const GREEN: [GLubyte; 3]   = [0,255,0];
+pub const GREY:  [GLubyte; 3]   = [192,192,192];
+pub const BLACK: [GLubyte; 3]   = [0,0,0];
 
 pub unsafe fn glPushAttrib(mask: GLbitfield, mod_addr: HINSTANCE) {
     let func_addr = GetProcAddress(mod_addr, "glPushAttrib\0".as_ptr() as *const i8);
