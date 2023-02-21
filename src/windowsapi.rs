@@ -4,22 +4,26 @@
 pub enum HINSTANCE__ {}
 pub type HINSTANCE = *mut HINSTANCE__;
 pub type c_char = i8;
-pub type CHAR = c_char;
-pub type DWORD = u32;
-pub type BOOL = i32;
+pub type CHAR   = c_char;
+pub type DWORD  = u32;
+pub type BOOL   = i32;
 pub type LPCSTR = *const CHAR;
 pub type HANDLE = *mut c_void;
-pub enum c_void {}
-pub enum HDC {}
+pub type HDC    = *mut HDC__;
+pub type HGLRC  = *mut HGLRC__;
+pub enum c_void  {}
+pub enum HDC__   {}
+pub enum HGLRC__ {}
+
 
 pub const PAGE_EXECUTE_READWRITE: DWORD = 0x40;
-pub const MEM_COMMIT: DWORD = 0x1000;
-pub const MEM_RESERVE: DWORD = 0x2000;
+pub const MEM_COMMIT:             DWORD = 0x1000;
+pub const MEM_RESERVE:            DWORD = 0x2000;
 
 pub const VK_LBUTTON: i32 = 0x01;
 pub const VK_RBUTTON: i32 = 0x02;
-pub const VK_DELETE: i32 = 0x2E;
-pub const VK_F6: i32 = 0x75;
+pub const VK_DELETE:  i32 = 0x2E;
+pub const VK_F6:      i32 = 0x75;
 pub const VK_NUMLOCK: i32 = 0x90;
 
 #[repr(C)]
@@ -30,7 +34,6 @@ pub struct SECURITY_ATTRIBUTES {
 }
 
 type LPSECURITY_ATTRIBUTES = *mut SECURITY_ATTRIBUTES;
-
 
 extern "system" {
     pub fn GetModuleHandleA(lpModuleName: LPCSTR) -> HINSTANCE;
@@ -45,4 +48,5 @@ extern "system" {
     pub fn FreeConsole() -> BOOL;
     pub fn AllocConsole() -> BOOL;
     pub fn SetConsoleTitleA(lpConsoleTitle: LPCSTR) -> BOOL;
+    //pub fn glPushAttrib(mask: GLbitfield);
 }

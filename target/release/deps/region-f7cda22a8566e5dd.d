@@ -1,0 +1,13 @@
+C:\programs\InterBot\target\release\deps\region-f7cda22a8566e5dd.rmeta: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\error.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\lock.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\os\mod.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\os\windows.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\page.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\protect.rs
+
+C:\programs\InterBot\target\release\deps\libregion-f7cda22a8566e5dd.rlib: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\error.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\lock.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\os\mod.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\os\windows.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\page.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\protect.rs
+
+C:\programs\InterBot\target\release\deps\region-f7cda22a8566e5dd.d: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\error.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\lock.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\os\mod.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\os\windows.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\page.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\protect.rs
+
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\lib.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\error.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\lock.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\os\mod.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\os\windows.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\page.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\region-2.2.0\src\protect.rs:

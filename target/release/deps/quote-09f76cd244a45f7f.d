@@ -1,0 +1,13 @@
+C:\programs\InterBot\target\release\deps\quote-09f76cd244a45f7f.rmeta: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\ext.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\format.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\ident_fragment.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\to_tokens.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\runtime.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\spanned.rs
+
+C:\programs\InterBot\target\release\deps\libquote-09f76cd244a45f7f.rlib: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\ext.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\format.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\ident_fragment.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\to_tokens.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\runtime.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\spanned.rs
+
+C:\programs\InterBot\target\release\deps\quote-09f76cd244a45f7f.d: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\ext.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\format.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\ident_fragment.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\to_tokens.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\runtime.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\spanned.rs
+
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\lib.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\ext.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\format.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\ident_fragment.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\to_tokens.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\runtime.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\src\spanned.rs:

@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=C:\programs\InterBot\target\release\build\typenum-83fc6fa8da094bae\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=C:\programs\InterBot\target\release\build\typenum-83fc6fa8da094bae\out\op.rs

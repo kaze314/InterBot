@@ -1,0 +1,13 @@
+C:\programs\InterBot\target\release\deps\cc-70397cb2b60f56c3.rmeta: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\registry.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\winapi.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\com.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\setup_config.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\vs_instances.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\windows_registry.rs
+
+C:\programs\InterBot\target\release\deps\libcc-70397cb2b60f56c3.rlib: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\registry.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\winapi.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\com.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\setup_config.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\vs_instances.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\windows_registry.rs
+
+C:\programs\InterBot\target\release\deps\cc-70397cb2b60f56c3.d: C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\lib.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\registry.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\winapi.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\com.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\setup_config.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\vs_instances.rs C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\windows_registry.rs
+
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\lib.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\registry.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\winapi.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\com.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\setup_config.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\vs_instances.rs:
+C:\Users\drago\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.79\src\windows_registry.rs:
