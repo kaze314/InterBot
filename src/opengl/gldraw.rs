@@ -35,7 +35,6 @@ pub unsafe fn draw_filled_rect(x: GLfloat, y: GLfloat, width: GLfloat, height: G
 	glBegin(GL_QUADS, mod_addr);
 	glVertex2f(x,y, mod_addr);
 	glVertex2f(x+width, y, mod_addr);
-	glVertex2f(x+height, y, mod_addr);
 	glVertex2f(x+width, y+height, mod_addr);
 	glVertex2f(x, y+height, mod_addr);
 	glEnd(mod_addr);
