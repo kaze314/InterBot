@@ -4,16 +4,20 @@
 pub enum HINSTANCE__ {}
 pub type HINSTANCE = *mut HINSTANCE__;
 pub type c_char = i8;
+pub type c_int  = i32;
 pub type CHAR   = c_char;
 pub type DWORD  = u32;
 pub type BOOL   = i32;
 pub type LPCSTR = *const CHAR;
 pub type HANDLE = *mut c_void;
+pub type HGDIOBJ= *mut c_void;
 pub type HDC    = *mut HDC__;
 pub type HGLRC  = *mut HGLRC__;
+pub type HFONT  = *mut HFONT__;
 pub enum c_void  {}
 pub enum HDC__   {}
 pub enum HGLRC__ {}
+pub enum HFONT__ {}
 
 
 pub const PAGE_EXECUTE_READWRITE: DWORD = 0x40;
@@ -25,6 +29,17 @@ pub const VK_RBUTTON: i32 = 0x02;
 pub const VK_DELETE:  i32 = 0x2E;
 pub const VK_F6:      i32 = 0x75;
 pub const VK_NUMLOCK: i32 = 0x90;
+pub const VK_HOME:    i32 = 0x24;
+pub const VK_INSERT:  i32 = 0x2D;
+
+pub const FW_MEDIUM:      c_int = 500;
+pub const ANSI_CHARSET:   DWORD = 0;
+pub const OUT_TT_PRECIS:  DWORD = 4;
+pub const PROOF_QUALITY:  DWORD = 2;
+pub const FF_DONTCARE:    DWORD = 0 << 4;
+pub const DEFAULT_PITCH:  DWORD = 0;
+pub const CLIP_DEFAULT_PRECIS: DWORD = 0;
+
 
 #[repr(C)]
 pub struct SECURITY_ATTRIBUTES {
@@ -48,5 +63,7 @@ extern "system" {
     pub fn FreeConsole() -> BOOL;
     pub fn AllocConsole() -> BOOL;
     pub fn SetConsoleTitleA(lpConsoleTitle: LPCSTR) -> BOOL;
-    //pub fn glPushAttrib(mask: GLbitfield);
+    pub fn CreateFontA(cHeight: c_int, cWidth: c_int, cEscapement: c_int, cOrientation: c_int, cWeight: c_int, bItalic: DWORD, bUnderline: DWORD, bStrikeOut: DWORD, iCharSet: DWORD, iOutPrecision: DWORD, iClipPrecision: DWORD, iQuality: DWORD, iPitchAndFamily: DWORD, pszFaceName: LPCSTR) -> HFONT;
+    pub fn SelectObject(hdc: HDC, h: HGDIOBJ) -> HGDIOBJ;
+    pub fn DeleteObject(ho: HGDIOBJ) -> BOOL;
 }

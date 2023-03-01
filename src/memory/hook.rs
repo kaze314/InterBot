@@ -8,8 +8,7 @@ use crate::windowsapi::{c_void, VirtualProtect, VirtualAlloc, GetModuleHandleA, 
 
     src: address of orginal function
     dst: the function you you want called
-    PtrToGateway: a pointer to the gateway
-    len: length of bytes to be replaced
+    Len: length of bytes to be replaced
 
     originalBytes: the bytes that were replaced
 */
@@ -29,7 +28,6 @@ impl Hook {
     pub unsafe fn enable(&mut self) -> *const () {
         memcpy(self.originalBytes.as_mut_ptr() as u64, self.src, self.Len as u32);
         self.status = true;
-        println!("{:?}", self.originalBytes);
         return TRAMP_HOOK64(self.dst as usize, self.src, self.Len);
     }
 
@@ -47,6 +45,8 @@ impl Hook {
 }
 
 /*
+    A wrapper for Hook
+
     ExportName: the function name you want hooked
     ModName: the function's module name
     dst: the function you you want called
@@ -86,7 +86,6 @@ pub unsafe fn HOOK64(toHook: usize, ourFunct: *mut c_void, len: usize) -> bool {
 
     /* get the address to jump to */
     let relativeAddress: u64 = ourFunct as u64;
-    println!("relativeAddress {:?}", relativeAddress);
 
     /* place jmp */
     let JMP_BYTES: &[u8] = b"\xFF\x25\x00\x00\x00\x00";
@@ -110,7 +109,7 @@ pub unsafe fn TRAMP_HOOK64(dst: usize, src: u64, len: usize) -> *const () {
 
     /* create gateway */
     let gateway: u64 = VirtualAlloc(0 as *mut c_void, len, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
-    println!("gateway address: {}", gateway);
+
     /* write the stolen bytes */
     memcpy(gateway, src, len as u32);
 
