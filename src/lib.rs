@@ -117,7 +117,6 @@ unsafe extern "C" fn main_thread(lp_thread_parameter: *mut c_void) -> u32 {
     let mut toggle_aimbot: bool = true;
     let mut insert_was_pressed: bool = false;
     let mut home_was_pressed: bool = false;
-    let mut rmb_was_pressed: bool = false;
     let mut current_enemy: Entity;
 
     /* cheat loop */

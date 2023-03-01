@@ -29,9 +29,6 @@ impl Entity {
     		time = 5000;
     	}
 
-    	println!("angle.x {:?}", *(self.angle.x));
-    	println!("pitch {:?}", pitch);
-
     	//TODO: add noise
 		*(self.angle.y) = *(self.angle.y) + (pitch - *(self.angle.y))/ y_smoothing* ( 1.0 + (time as f32/30.0));
 		*(self.angle.x) = *(self.angle.x) + (yaw - *(self.angle.x))/ x_smoothing* ( 1.0 + (time as f32/35.0));
@@ -52,8 +49,7 @@ impl Entity {
 
     	let delta_yaw = yaw - local_player_angle.x;
     	let delta_pitch = pitch - local_player_angle.y;
-
-    	if yaw 
+    	
     	(delta_yaw*delta_yaw + delta_pitch*delta_pitch).sqrt()
 	}
 	pub unsafe fn get_closest_player(&self, entity_list_ptr: *mut u64, players_amount: u32) -> Entity {
